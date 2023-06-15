@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hireo</title>
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <!-- slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- default -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Wrapper Container -->
+    <div class="wrapper">
+        <!-- Header Container -->
+        <header id="header-container">
+            <!-- Logo -->
+            <div id="logo"><a href="home.html"><img src="../images/logo.png" alt="Hireo"></a></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Find Jobs</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <div id="btn">
+                <a href="#">Login / Register</a>
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <!-- Register section -->
+        <section class="register">
+            <!-- Titlebar -->
+            <div class="titlebar">
+                <h2>Log In</h2>
+                <nav>
+                    <ul>
+                        <li><a href="/public/home.html">Home</a><span class="material-icons">arrow_right</span></li>
+                        <li>Log In</li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Titlebar/ End -->
+
+            <!-- Page content -->
+            <div class="page-content">
+                <!-- welcome Text -->
+                <div class="welcome-text">
+                    <h3 style="font-size: 26px;">We're glad to see you again!</h3>
+                    <span>Don't have an account? <a href="#">Sign Up!</a></span>
+                </div>
+
+                <!-- Account Type -->
+                <!-- For now this is optional let see what wii be do with this at log in time -->
+                <!-- <div class="account-type">
+                    <div>
+                        <input type="radio" name="account-type-radio" id="freelancer-radio" class="account-type-radio"
+                            checked />
+                        <label for="freelancer-radio">
+                            <span class="material-icons">account_circle</span>Freelancer
+                        </label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="account-type-radio" id="employer-radio" class="account-type-radio" />
+                        <label for="employer-radio">
+                            <span class="material-icons">business_center</span>
+                            Employer
+                        </label>
+                    </div>
+                </div> -->
+
+                <!-- Form -->
+                <form action="">
+                    <div class="register-form">
+                        <span class="material-icons-outlined">email</span>
+                        <input type="text" class="register-input" name="emailaddress-register"
+                            id="emailaddress-register" placeholder="Email Address" required />
+                    </div>
+
+                    <div class="register-form" title="Should be at least 8 characters long">
+                        <span class="material-icons-outlined">lock</span>
+                        <input type="password" class="register-input" name="password-register" id="password-register"
+                            placeholder="Password" required />
+                    </div>
+
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+
+                    <!-- Register Button -->
+                    <button class="register-button" type="submit">Register</button>
+                </form>
+
+                <!-- Social Login -->
+                <div class="login-separator">
+                    <span>or</span>
+                </div>
+
+                <div class="social-login-buttons">
+                    <button class="facebook-login"><i class="fab fa-facebook-f"></i> Register via Facebook</button>
+                    <button class="google-login"><i class="fab fa-google-plus-g"></i> Register via Google+</button>
+                </div>
+            </div>
+            <!-- Page content\End -->
+        </section>
+        <!-- Register section/ End -->
+
+        <!-- Footer -->
+        <section class="footer">
+            <!-- container -->
+            <div class="container">
+
+                <!-- Footer top -->
+                <div class="footer-top">
+                    <!-- Footer top left -->
+                    <div class="top-left">
+                        <img src="../images/logo-white.png" alt="">
+                    </div>
+                    <!-- Footer  top right-->
+                    <div class="top-right">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span class="tooltip">Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                    <span class="tooltip">Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-google-plus-g"></i>
+                                    <span class="tooltip">Google Plus</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                    <span class="tooltip">LinkedIn</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Footer Middle -->
+                <div class="footer-middle">
+                    <div class="row">
+                        <div class="col">
+                            <h3>For Candidates</h3>
+                            <ul>
+                                <li><a href="#"><span>Browse Jobs</span></a></li>
+                                <li><a href="#"><span>Add Resume</span></a></li>
+                                <li><a href="#"><span>Job Alerts</span></a></li>
+                                <li><a href="#"><span>My Bookmarks</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3>For Employers</h3>
+                            <ul>
+                                <li><a href="#"><span>Browse Candidates</span></a></li>
+                                <li><a href="#"><span>Post a Job</span></a></li>
+                                <li><a href="#"><span>Post a Task</span></a></li>
+                                <li><a href="#"><span>Plans & Pricing</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3>Helpful Links</h3>
+                            <ul>
+                                <li><a href="#"><span>Contact</span></a></li>
+                                <li><a href="#"><span>Privacy Policy</span></a></li>
+                                <li><a href="#"><span>Terms of Use</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3>Account</h3>
+                            <ul>
+                                <li><a href="#"><span>Log In</span></a></li>
+                                <li><a href="#"><span>My Account</span></a></li>
+                            </ul>
+                        </div>
+                        <!-- NEWSletter -->
+                        <div class="newsletter">
+                            <h3><i class="far fa-envelope"></i>Sign Up For a Newsletter</h3>
+                            <p>Weekly breaking news, analysis and cutting edge advices on job searching.</p>
+                            <form action="#" method="get" class="newsletter-form">
+                                <input type="text" name="fname" placeholder="Enter your email address">
+                                <!-- <i class="fas fa-arrow-right"></i> -->
+                                <button><span class="material-icons">
+                                        east
+                                    </span></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer bottom -->
+                <div class="footer-bottom">
+                    <div class="row">© 2019 <strong>Hireo</strong>. All Rights Reserved.</div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Footer / End -->
+
+        <!-- javascript -->
+        <script src="../js/home.js"></script>
+        <!-- jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

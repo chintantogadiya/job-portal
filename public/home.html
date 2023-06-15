@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hireo</title>
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- material icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Line awesome icons -->
+        <link rel="stylesheet"
+            href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+        <!-- slider -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+            integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <!-- default -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+                integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Wrapper Container -->
+    <div class="wrapper">
+        <!-- Header Container -->
+        <header id="header-container">
+            <!-- Logo -->
+            <div id="logo"><a href="home.html"><img src="../images/logo.png" alt="Hireo"></a></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Find Jobs</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <div id="btn">
+                <a href="#">Login / Register</a>
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <!-- Intro Banner -->
+        <div class="banner">
+            <div class="container">
+                <!-- Intro Banner Headline -->
+                <div class="banner-headline">
+                    <h3>
+                        <strong style="font-weight: 600;color: #333;">Hire experts or be hired for any job, any
+                            time.</strong>
+                        <br>
+                        <span>Thousands of small businesses use <strong style="color: #2a41e8;">Hireo</strong> to turn
+                            their ideas into
+                            reality.</span>
+                    </h3>
+                </div>
+                <!-- Search Box -->
+                <div class="banner-search-box">
+                    <!-- Banner Search Field -->
+                    <div class="banner-search-field">
+                        <label for="online job input" class="field-title">Where?</label>
+                        <input type="text" name="job" id="textbox" placeholder="Online Job" autocomplete="off">
+                        <!-- <i class="fas fa-map-marker-alt"></i> -->
+                        <span class="material-icons-outlined">
+                            location_on
+                        </span>
+                    </div>
+                    <!-- Banner Search Field -->
+                    <div class="banner-search-field">
+                        <label for="online job keyword" class="field-title">What job you want?</label>
+                        <input type="text" name="job" id="textbox" placeholder="Job Title or Keyword"
+                            autocomplete="off">
+                    </div>
+                    <!-- Banner Search Button -->
+                    <div class="banner-search-button">
+                        <button>Search</button>
+                    </div>
+                </div>
+                <!-- stats -->
+                <div>
+                    <ul class="banner-stats">
+                        <li>
+                            <strong class="counter">952</strong>
+                            <span>Jobs Posted</span>
+                        </li>
+                        <li>
+                            <strong class="counter">2,126</strong>
+                            <span>Employers</span>
+                        </li>
+                        <li>
+                            <strong class="counter">2,126</strong>
+                            <span>Job Seekers</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="banner-image-container"></div>
+        </div>
+        <!-- Intro Banner End -->
+
+        <!-- Category Boxes -->
+        <section class="category">
+            <div class="category-headline">
+                <h3><strong style="font-weight: 600;color: #333;">Popular Job Categories</strong></h3>
+            </div>
+            <!-- Category Box Container -->
+            <div class="container">
+                <!-- Category Box -->
+                <a href="#" class="category-box">
+                    <i class="lar la-file-code"></i>
+                    <span class="category-counter">612</span>
+                    <p>
+                        <span>Web & Software Dev</span><br>
+                        Software Engineer, Web / Mobile Developer & More
+                    </p>
+                </a>
+                <!-- Category Box -->
+                <a href="#" class="category-box">
+                    <span class="material-icons-outlined icon">
+                        cloud_upload
+                        </span>
+                    <span class="category-counter">113</span>
+                    <p>
+                        <span>Data Science & Analitycs</span><br>
+                        Data Specialist / Scientist, Data Analyst & More
+                    </p>
+                </a>
+                <!-- Category Box -->
+                <a href="#" class="category-box">
+                    <i class="las la-suitcase"></i>
+                    <span class="category-counter">186</span>
+                    <p>
+                        <span>Accounting & Consulting</span><br>
+                        Auditor, Accountant, Fnancial Analyst & More
+                    </p>
+                </a>
+                <!-- Category Box -->
+                <a href="#" class="category-box">
+                    <i class="las la-pencil-alt"></i>
+                    <span class="category-counter">298</span>
+                    <p>
+                        <span>Writing & Translations</span><br>
+                        Copywriter, Creative Writer, Translator & More
+                    </p>
+                </a>
+                <!-- Category Box -->
+                <a href="#" class="category-box">
+                    <i class="las la-chart-pie"></i>
+                    <span class="category-counter">549</span>
+                    <p>
+                        <span>Sales & Marketing</span><br>
+                        Brand Manager, Marketing Coordinator & More
+                    </p>
+                </a>
+                <!-- Category Box -->
+                <a href="#" class="category-box">
+                    <i class="las la-image"></i>
+                    <span class="category-counter">873</span>
+                    <p>
+                        <span>Graphics & Design</span><br>
+                        Creative Director, Web Designer & More
+                    </p>
+                </a>
+                <!-- Category Box -->
+                <a href="#" class="category-box">
+                    <i class="las la-bullhorn"></i>
+                    <span class="category-counter">125</span>
+                    <p>
+                        <span>Digital Marketing</span><br>
+                        Darketing Analyst, Social Profile Admin & More
+                    </p>
+                </a>
+                <!-- Category Box -->
+                <a href="#" class="category-box">
+                    <i class="las la-graduation-cap"></i>
+                    <span class="category-counter">445</span>
+                    <p>
+                        <span>Education & Training</span><br>
+                        Advisor, Coach, Education Coordinator & More
+                    </p>
+                </a>
+
+            </div>
+        </section>
+        <!-- Category Boxes \end-->
+
+        <!-- Features Jobs -->
+        <section class="feature-job">
+            <!-- Headline -->
+            <div class="headline">
+                <h3><strong style="font-weight: 600;color: #333;">Featured Jobs</strong></h3>
+                <a href="#">Browse All Jobs <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+            <!-- Headline End -->
+            <!-- Job container -->
+            <div class="container">
+                <!-- Job Listing -->
+                <a href="#" class="job-card">
+
+                    <!-- Job Listing Details -->
+                    <div class="job-details">
+
+                        <!-- Logo -->
+                        <div class="job-logo">
+                            <img src="../images/company-logo-01.png" alt="">
+                        </div>
+
+                        <!-- Details -->
+                        <div class="job-description">
+                            <h3 class="job-title">Bilingual Event Support Specialist</h3>
+
+                            <!-- Job Listing Footer -->
+                            <div class="job-footer">
+                                <ul>
+                                    <li><span class="material-icons-outlined">
+                                        business
+                                    </span> Hexagon
+                                    <span class="material-icons verified-badge">
+                                                verified
+                                            </span>
+                                    </li>
+                                    <li><span class="material-icons-outlined">
+                                        location_on
+                                    </span> San Francissco</li>
+                                    <li><span class="material-icons-outlined" style="margin-right: 8px;">
+                                        business_center
+                                    </span>Full Time</li>
+                                    <li><span class="material-icons" style="margin-right: 5px;">
+                                        access_time
+                                    </span> 2 days ago</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Apply Button -->
+                        <span class="apply-button">Apply Now</span>
+                    </div>
+                </a>
+                <!-- Job Listing -->
+                <a href="#" class="job-card">
+                
+                    <!-- Job Listing Details -->
+                    <div class="job-details">
+                
+                        <!-- Logo -->
+                        <div class="job-logo">
+                            <img src="../images/company-logo-02.png" alt="">
+                        </div>
+                
+                        <!-- Details -->
+                        <div class="job-description">
+                            <h3 class="job-title">Restaurant General Manager</h3>
+                
+                            <!-- Job Listing Footer -->
+                            <div class="job-footer">
+                                <ul>
+                                    <li><span class="material-icons">
+                                            domain
+                                        </span> King
+                                        <span class="material-icons verified-badge">
+                                            verified
+                                        </span>
+                                    </li>
+                                    <li><span class="material-icons-outlined" style="margin-right: -1px;">
+                                            location_on
+                                        </span> San Francissco</li>
+                                    <li><span class="material-icons-outlined" style="margin-right: 8px;">
+                                            business_center
+                                        </span>Full Time</li>
+                                    <li><span class="material-icons" style="margin-right: 5px;">
+                                            access_time
+                                        </span> 2 days ago</li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <!-- Apply Button -->
+                        <span class="apply-button">Apply Now</span>
+                    </div>
+                </a>
+                <!-- Job Listing -->
+                <a href="#" class="job-card">
+                
+                    <!-- Job Listing Details -->
+                    <div class="job-details">
+                
+                        <!-- Logo -->
+                        <div class="job-logo">
+                            <img src="../images/company-logo-03.png" alt="">
+                        </div>
+                
+                        <!-- Details -->
+                        <div class="job-description">
+                            <h3 class="job-title">Competition Law Officer</h3>
+                
+                            <!-- Job Listing Footer -->
+                            <div class="job-footer">
+                                <ul>
+                                    <li><span class="material-icons">
+                                            domain
+                                        </span> Lexo
+                                        <span class="material-icons verified-badge">
+                                            verified
+                                        </span>
+                                    </li>
+                                    <li><span class="material-icons-outlined" style="margin-right: -1px;">
+                                            location_on
+                                        </span> San Francissco</li>
+                                    <li><span class="material-icons-outlined" style="margin-right: 8px;">
+                                            business_center
+                                        </span>Full Time</li>
+                                    <li><span class="material-icons" style="margin-right: 5px;">
+                                            access_time
+                                        </span> 2 days ago</li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <!-- Apply Button -->
+                        <span class="apply-button">Apply Now</span>
+                    </div>
+                </a>
+                <!-- Job Listing -->
+                <a href="#" class="job-card">
+                
+                    <!-- Job Listing Details -->
+                    <div class="job-details">
+                
+                        <!-- Logo -->
+                        <div class="job-logo">
+                            <img src="../images/company-logo-04.png" alt="">
+                        </div>
+                
+                        <!-- Details -->
+                        <div class="job-description">
+                            <h3 class="job-title">Barista and Cashier</h3>
+                
+                            <!-- Job Listing Footer -->
+                            <div class="job-footer">
+                                <ul>
+                                    <li><span class="material-icons">
+                                            domain
+                                        </span> Coffe
+                                        <span class="material-icons verified-badge">
+                                            verified
+                                        </span>
+                                    </li>
+                                    <li><span class="material-icons-outlined" style="margin-right: -1px;">
+                                            location_on
+                                        </span> San Francissco</li>
+                                    <li><span class="material-icons-outlined" style="margin-right: 8px;">
+                                            business_center
+                                        </span>Full Time</li>
+                                    <li><span class="material-icons" style="margin-right: 5px;">
+                                            access_time
+                                        </span> 2 days ago</li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <!-- Apply Button -->
+                        <span class="apply-button">Apply Now</span>
+                    </div>
+                </a>
+
+            </div>
+            <!-- Job container End -->
+        </section>
+        <!-- Features Jobs / End-->
+        
+        <!-- Highest Rated / Freelancers -->
+        <section class="freelancer">
+            
+        <!-- Headline -->
+        <div class="headline">
+            <h3><strong style="font-weight: 600;color: #333;">Highest Rated Freelancers</strong></h3>
+            <a href="#">Browse All Freelancers <i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+        <!-- Headline End -->
+        <!-- owl carousel -->
+        <div class="container">
+            <div class="owl-carousel owl-theme">
+                <!-- Freelancer card -->
+                <div class="item">
+                    <div class="freelancer-card">
+                    
+                        <!-- Header -->
+                        <div class="overview">
+                            <!-- Bookmark icon -->
+                            <span class="material-icons bookmark">bookmark</span>
+                    
+                            <!-- Avatar -->
+                            <div class="freelancer-avatar">
+                                <a href="#"><img src="../images/avatar-1.jpg" alt=""></a>
+                                <span class="material-icons verified-badge">verified</span>
+                            </div>
+                    
+                            <!-- Name -->
+                            <div class="freelancer-name">
+                                <h4>
+                                    <a href="#">Tom Smith <img class="flag" src="../images/flag-1.svg" alt="" title="United Kingdom"
+                                            data-tippy-placement="top"></a>
+                                </h4>
+                                <span>UI/UX Designer</span>
+                            </div>
+                    
+                            <!-- Rating -->
+                            <div class="freelancer-rating" data-rating="5.0">
+                                <div class="star-rating">
+                                    <span class="material-icons star">star</span>
+                                    <span class="material-icons star">star</span>
+                                    <span class="material-icons star">star</span>
+                                    <span class="material-icons star">star</span>
+                                    <span class="material-icons star">star</span>
+                                </div>
+                            </div>
+                    
+                        </div>
+                        <!-- Header /End -->
+                    
+                        <!-- Details -->
+                        <div class="details">
+                            <ul>
+                                <li>Location <strong><span class="material-icons-outlined">location_on</span>London</strong></li>
+                                <li>Rate <strong>$60 / hr</strong></li>
+                                <li>Job Success <strong>95%</strong></li>
+                            </ul>
+                            <a href="#" class="button">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Freelancer card -->
+                <div class="item">
+                    <div class="item">
+                        <div class="freelancer-card">
+                    
+                            <!-- Header -->
+                            <div class="overview">
+                                <!-- Bookmark icon -->
+                                <span class="material-icons bookmark">bookmark</span>
+                    
+                                <!-- Avatar -->
+                                <div class="freelancer-avatar">
+                                    <a href="#"><img src="../images/avatar-2.jpg" alt=""></a>
+                                    <span class="material-icons verified-badge">verified</span>
+                                </div>
+                    
+                                <!-- Name -->
+                                <div class="freelancer-name">
+                                    <h4>
+                                        <a href="#">David Peterson <img class="flag" src="../images/flag-2.svg" alt="" title="Germany"
+                                                data-tippy-placement="top"></a>
+                                    </h4>
+                                    <span>iOS Expert + Node Dev</span>
+                                </div>
+                    
+                                <!-- Rating -->
+                                <div class="freelancer-rating" data-rating="5.0">
+                                    <div class="star-rating">
+                                        <span class="material-icons star">star</span>
+                                        <span class="material-icons star">star</span>
+                                        <span class="material-icons star">star</span>
+                                        <span class="material-icons star">star</span>
+                                        <span class="material-icons star">star</span>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                            <!-- Header /End -->
+                    
+                            <!-- Details -->
+                            <div class="details">
+                                <ul>
+                                    <li>Location <strong><span class="material-icons-outlined">location_on</span>Berlin</strong></li>
+                                    <li>Rate <strong>$40 / hr</strong></li>
+                                    <li>Job Success <strong>88%</strong></li>
+                                </ul>
+                                <a href="#" class="button">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Freelancer card -->
+                <div class="item">
+                    <div class="item">
+                        <div class="freelancer-card">
+                    
+                            <!-- Header -->
+                            <div class="overview">
+                                <!-- Bookmark icon -->
+                                <span class="material-icons bookmark">bookmark</span>
+                    
+                                <!-- Avatar -->
+                                <div class="freelancer-avatar">
+                                    <a href="#"><img src="../images/user-avatar-placeholder.png" alt=""></a>
+                                </div>
+                    
+                                <!-- Name -->
+                                <div class="freelancer-name">
+                                    <h4>
+                                        <a href="#">Marcin Kowalski <img class="flag" src="../images/flag-3.svg" alt="" title="Polend"
+                                                data-tippy-placement="top"></a>
+                                    </h4>
+                                    <span>Front-End Developer</span>
+                                </div>
+                    
+                                <!-- Rating -->
+                                <div class="freelancer-rating" data-rating="4.9">
+                                    <div class="star-rating">
+                                        <span class="material-icons star">star</span>
+                                        <span class="material-icons star">star</span>
+                                        <span class="material-icons star">star</span>
+                                        <span class="material-icons star">star</span>
+                                        <span class="material-icons star">star</span>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                            <!-- Header /End -->
+                    
+                            <!-- Details -->
+                            <div class="details">
+                                <ul>
+                                    <li>Location <strong><span class="material-icons-outlined">location_on</span>Warsaw</strong></li>
+                                    <li>Rate <strong>$50 / hr</strong></li>
+                                    <li>Job Success <strong>100%</strong></li>
+                                </ul>
+                                <a href="#" class="button">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Freelancer card -->
+                <div class="item">
+                        <div class="item">
+                            <div class="freelancer-card">
+                        
+                                <!-- Header -->
+                                <div class="overview">
+                                    <!-- Bookmark icon -->
+                                    <span class="material-icons bookmark">bookmark</span>
+                        
+                                    <!-- Avatar -->
+                                    <div class="freelancer-avatar">
+                                        <a href="#"><img src="../images/avatar-3.jpg" alt=""></a>
+                                        <span class="material-icons verified-badge">verified</span>
+                                    </div>
+                        
+                                    <!-- Name -->
+                                    <div class="freelancer-name">
+                                        <h4>
+                                            <a href="#">Sindy Forest <img class="flag" src="../images/flag-4.svg" alt="" title="Australia"
+                                                    data-tippy-placement="top"></a>
+                                        </h4>
+                                        <span>Magento Certified Developer</span>
+                                    </div>
+                        
+                                    <!-- Rating -->
+                                    <div class="freelancer-rating" data-rating="5.0">
+                                        <div class="star-rating">
+                                            <span class="material-icons star">star</span>
+                                            <span class="material-icons star">star</span>
+                                            <span class="material-icons star">star</span>
+                                            <span class="material-icons star">star</span>
+                                            <span class="material-icons star">star</span>
+                                        </div>
+                                    </div>
+                        
+                                </div>
+                                <!-- Header /End -->
+                        
+                                <!-- Details -->
+                                <div class="details">
+                                    <ul>
+                                        <li>Location <strong><span class="material-icons-outlined">location_on</span>Brisbane</strong></li>
+                                        <li>Rate <strong>$70 / hr</strong></li>
+                                        <li>Job Success <strong>100%</strong></li>
+                                    </ul>
+                                    <a href="#" class="button">View Profile</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        <!-- Freelancer container -->
+        </section>
+        <!-- Highest Rated / Freelancers / End-->
+
+        <!-- Footer -->
+        <section class="footer">
+            <!-- container -->
+            <div class="container">
+
+                <!-- Footer top -->
+                <div class="footer-top">
+                    <!-- Footer top left -->
+                    <div class="top-left">
+                        <img src="../images/logo-white.png" alt="">
+                    </div>
+                    <!-- Footer  top right-->
+                    <div class="top-right">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span class="tooltip">Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                    <span class="tooltip">Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-google-plus-g"></i>
+                                    <span class="tooltip">Google Plus</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                    <span class="tooltip">LinkedIn</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Footer Middle -->
+                <div class="footer-middle">
+                    <div class="row">
+                        <div class="col">
+                            <h3>For Candidates</h3>
+                            <ul>
+                                <li><a href="#"><span>Browse Jobs</span></a></li>
+                                <li><a href="#"><span>Add Resume</span></a></li>
+                                <li><a href="#"><span>Job Alerts</span></a></li>
+                                <li><a href="#"><span>My Bookmarks</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3>For Employers</h3>
+                            <ul>
+                                <li><a href="#"><span>Browse Candidates</span></a></li>
+                                <li><a href="#"><span>Post a Job</span></a></li>
+                                <li><a href="#"><span>Post a Task</span></a></li>
+                                <li><a href="#"><span>Plans & Pricing</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3>Helpful Links</h3>
+                            <ul>
+                                <li><a href="#"><span>Contact</span></a></li>
+                                <li><a href="#"><span>Privacy Policy</span></a></li>
+                                <li><a href="#"><span>Terms of Use</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3>Account</h3>
+                            <ul>
+                                <li><a href="#"><span>Log In</span></a></li>
+                                <li><a href="#"><span>My Account</span></a></li>
+                            </ul>
+                        </div>
+                        <!-- NEWSletter -->
+                        <div class="newsletter">
+                            <h3><i class="far fa-envelope"></i>Sign Up For a Newsletter</h3>
+                            <p>Weekly breaking news, analysis and cutting edge advices on job searching.</p>
+                            <form action="#" method="get" class="newsletter-form">
+                                <input type="text" name="fname" placeholder="Enter your email address">
+                                <!-- <i class="fas fa-arrow-right"></i> -->
+                                <button><span class="material-icons">
+                                    east
+                                </span></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Footer bottom -->
+                <div class="footer-bottom">
+                    <div class="row">© 2019 <strong>Hireo</strong>. All Rights Reserved.</div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- Footer / End -->
+    <!-- javascript -->
+    <script src="../js/home.js"></script>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+                loop: false,
+                margin: 10,
+                nav: true,
+                touchDrag:true,
+                margin:15,
+                dots:false,
+                navText:['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
+    </script>
+</body>
+
+</html>
